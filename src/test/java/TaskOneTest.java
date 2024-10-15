@@ -15,7 +15,7 @@ public class TaskOneTest {
         UniqueNumberExtractor extractor = new UniqueNumberExtractor();
         List<Integer> numbers = Arrays.asList(1, 2, 3, 2, 4, 1, 5, 3);
 
-        Set<Integer> expectedUniqueNumbers = new HashSet<>(Arrays.asList(1, 2, 3, 4,  5));
+        Set<Integer> expectedUniqueNumbers = new HashSet<>(Arrays.asList(1, 2, 3, 4, 5));
         Set<Integer> actualUniqueNumbers = extractor.extractUniqueNumbers(numbers);
 
         assertEquals(expectedUniqueNumbers, actualUniqueNumbers);
